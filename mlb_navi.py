@@ -1,3 +1,7 @@
+# Purpose of this python coding is to show closest mlb stadium(if google place api works okay)
+# Get information like gametime, home_away_team, probable pitcher
+# Also, get directions to there
+
 import googlemaps
 import geocoder
 from datetime import timedelta
