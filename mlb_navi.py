@@ -5,7 +5,7 @@ import dateutil.parser
 import statsapi  # please, install statsapi first ## pip install MLB-StatsAPI ##
 from bs4 import BeautifulSoup
 
-gmaps = googlemaps.Client(key='AIzaSyCDJ6YUG9tIPFJvn5F3IQJtShPZdbJMow8')
+gmaps = googlemaps.Client(key='Your API KEY')
 
 mylocation = geocoder.ip('me')
 origin = mylocation.latlng  # GPS, my location
